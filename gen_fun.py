@@ -40,7 +40,7 @@ cursor = db.cursor()
 # Generate the table
 cursor.execute("CREATE TABLE IF NOT EXISTS sim_output(time, pos, vel, force, resist)")
 
-m1 = Mass(mass=20)
+m1 = Mass(mass=50)
 sim1 = Sim(runtime=800, steps_per_sec=100)
 
 print(m1)
